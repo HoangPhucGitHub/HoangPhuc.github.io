@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- Bắt đầu tiêu đề  -->
+
+<header class="header">
+
+    <a href="home.html" class="logo"> <i class="fas fa-shopping-basket"></i> Fruits Shop </a>
+
+    <nav class="navbar">
+        <a href="home.html">Trang chủ</a>
+        <a href="shop.html">Cửa hàng</a>
+        <a href="about.html">Giới thiệu</a>
+        <a href="review.html">Đánh giá</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Liên hệ</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" placeholder="Tìm kiếm..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="image/cart-1.jpg" alt="">
+            <div class="content">
+                <h3>cải thìa</h3>
+                <span class="quantity">1kí</span>
+                <span class="multiply">x</span>
+                <span class="price">8.000vnđ</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="image/cart-2.jpg" alt="">
+            <div class="content">
+                <h3>dưa hấu</h3>
+                <span class="quantity">1kí</span>
+                <span class="multiply">x</span>
+                <span class="price">16.000vnđ</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="image/cart-3.jpg" alt="">
+            <div class="content">
+                <h3>bơ sáp</h3>
+                <span class="quantity">1kí</span>
+                <span class="multiply">x</span>
+                <span class="price">12.000vnđ</span>
+            </div>
+        </div>
+        <h3 class="total"> TỔNG TIỀN : <span>36.000vnđ</span> </h3>
+        <a href="#" class="btn">THANH TOÁN</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>ĐĂNG NHẬP</h3>
+        <input type="email" placeholder="Nhập email của bạn" class="box">
+        <input type="password" placeholder="Nhập mật khẩu của bạn" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">Lưu mật khẩu</label>
+        </div>
+        <input type="submit" value="ĐĂNG NHẬP" class="btn">
+        <p><a href="#">Quên mật khẩu? </a></p>
+        <p><a href="#">Tạo tài khoản mới</a></p>
+    </form>
+
+</header>
+
+<!-- Kết thúc tiêu đề -->
+
+<div class="heading">
+    <h1>Danh mục cửa hàng</h1>
+    <p> <a href="home.html">Trang chủ >></a> Giới thiệu </p>
+</div>
+
+<section class="about">
+
+    <div class="image">
+        <img src="image/about-img.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <span>Chào mừng bạn tới Fruits Shop</span>
+        <h3>Cửa hàng rau quả tươi</h3>
+       <p>Fruits Shop là một thương hiệu trái cây được rất nhiều người tiêu dùng biết đến, không chỉ cung cấp các loại trái cây nhập khẩu cao cấp
+         được nhập từ các nước trên thế giới. Mà Fruits Shop còn cung cấp các loại trái cây nội địa trong nước nữa, Fruits Shop mang đến nhiều sự lựa chọn phong phú hơn cho khách hàng.</p>
+        <p>Fruits Shop mong muốn mang đến cho khách hàng những sản phẩm trái cây nhập khẩu chất lượng cao, an toàn kèm theo đó là các dịch vụ tiện ích đẳng cấp. Đến với cửa hàng bạn có cơ hội 
+            mua được những loại trái cây đặc sản của các nước trên thế giới. Có thể kể đến như: Bơ sáp, Chuối LaBa, Lựu đỏ tươi ….  các sản phẩm đều có nguồn gốc xuất xứ rõ ràng, an toàn cho sức khỏe.</p>
+    </div>
+
+</section>
+
+<section class="gallery">
+
+    <h1 class="title"> Bộ sưu tập <span>của cửa hàng</span> <a href="#">Xem tất cả >></a> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/gallery-img-1.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/gallery-img-2.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/gallery-img-3.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/gallery-img-4.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/gallery-img-5.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/gallery-img-6.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Chân web  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Đường dẫn</h3>
+            <a href="home.html"> <i class="fas fa-arrow-right"></i> Trang chủ</a>
+            <a href="shop.html"> <i class="fas fa-arrow-right"></i> Cửa hàng</a>
+            <a href="about.html"> <i class="fas fa-arrow-right"></i> Giới thiệu</a>
+            <a href="review.html"> <i class="fas fa-arrow-right"></i> Đánh giá</a>
+            <a href="blog.html"> <i class="fas fa-arrow-right"></i> Blog</a>
+            <a href="contact.html"> <i class="fas fa-arrow-right"></i> Liên hệ</a>
+        </div>
+
+        <div class="box">
+            <h3>Liên kết</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Đơn hàng </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Mục yêu thích </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Sản phẩm yêu thích </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Tài khoản </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Điều khoản sử dụng </a>
+        </div>
+
+        <div class="box">
+            <h3>Follow</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> Facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> Twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> Instagram </a>
+        </div>
+
+        <div class="box">
+            <h3>Bảng tin</h3>
+            <p>Đăng kí để cập nhật giá mới nhất</p>
+            <form action="">
+                <input type="email" placeholder="Nhập email của bạn">
+                <input type="submit" value="Đăng kí" class="btn">
+            </form>
+            <img src="image/payment.png" class="payment" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- Kết thúc chân web -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom css file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
